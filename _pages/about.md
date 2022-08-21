@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://www.northeastern.edu/'>Northeastern University</a>, Boston, MA.
+subtitle: Northeastern University, Boston, MA.
 
 profile:
   align: right
@@ -17,4 +17,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome!
+Welcome! I'm a graduate student at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://northeastern.edu). I'm currently researching topics related to robot perception at the [RIVeR lab](https://robot.neu.edu/) under the supervision of Prof.Taskin Padir.
