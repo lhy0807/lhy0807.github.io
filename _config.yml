@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Hongyu Li # the website title (if blank, full name will be used instead)
+title: Hongyu Li (李鸿宇) # the website title (if blank, full name will be used instead)
 first_name: Hongyu
 middle_name: 
 last_name: Li
@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website for Hongyu Li.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: Hongyu Li, Northeastern University  # add your own keywords or leave empty
+keywords: Hongyu Li, Northeastern University, 李鸿宇  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: northeastern.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
