@@ -7,7 +7,7 @@ subtitle: Northeastern University, Boston, MA.
 profile:
   align: right
   image: headshot.jpg
-  image_cicular: true # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   # address: >
   #   <p>Chestnut Hill, MA</p>
   #   <p>02467</p>
