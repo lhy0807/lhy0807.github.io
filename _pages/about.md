@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome! I'm a graduate student at [Northeastern University](https://northeastern.edu). I'm researching topics related to robot perception with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/).
 
-I was a Research Intern at <a href="https://usa.honda-ri.com/">Honda Research Institute</a>, working on visuotactile manipulation perception under the supervision of Dr. Nawid Jamali.
+I am a Research Intern at <a href="https://usa.honda-ri.com/">Honda Research Institute</a>, working on visuotactile manipulation perception under the supervision of Dr. Nawid Jamali and Dr. Soshi Iba.
 
 My research interest lies at the intersection of computer vision, machine learning, and robotics, i.e., robot perception. Perception is at the essence of numerous robotics fields, and my current interest focuses on modeling the environment and object interaction accurately and efficiently.
 
