@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Northeastern University, Boston, MA.
+# subtitle: Northeastern University, Boston, MA.
 
 profile:
   align: right
@@ -19,9 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm a graduate student at [Northeastern University](https://northeastern.edu). I'm researching topics related to robot perception with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/).
+Welcome! I'm an incoming Ph.D. student in Computer Science at [Brown University](https://brown.edu) advised by [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/).
 
-From 2022 to 2023, I worked as a Research Intern at <a href="https://usa.honda-ri.com/">Honda Research Institute</a> (HRI). During my time at HRI, my research primarily focused on visuotactile manipulation perception. I had the privilege of being supervised by Dr. Nawid Jamali and Dr. Soshi Iba.
+I obtained my Master's degree at [Northeastern University](https://northeastern.edu), where I researched topics related to robot perception and navigation with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/).
+
+From 2022 to 2023, I did my internships at <a href="https://usa.honda-ri.com/">Honda Research Institute</a> (HRI) as a researcher. During my time at HRI, my research primarily focused on visuotactile manipulation perception. I had the privilege of being supervised by Dr. Nawid Jamali and Dr. Soshi Iba.
 
 My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception. Perception plays a crucial role in various robotics domains, and I am currently focused on developing accurate and efficient models for environment and object interaction.
 
