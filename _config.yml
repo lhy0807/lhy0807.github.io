@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Hongyu Li (李鸿宇) # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Hongyu
 middle_name: 
-last_name: Li
+last_name: Li (李鸿宇)
 email: hongyu@lhy.xyz
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website for Hongyu Li.
