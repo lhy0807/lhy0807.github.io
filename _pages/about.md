@@ -3,11 +3,16 @@ layout: about
 title: About
 permalink: /
 # subtitle: Northeastern University, Boston, MA.
+cv: CV.pdf
+google_scholar: https://scholar.google.com/citations?user=aM2PHREAAAAJ&hl=en
+linkedin: https://www.linkedin.com/in/lhy0807/
+twitter: https://twitter.com/Hongyu_Lii
 
 profile:
   align: right
   image: headshot.jpg
   image_circular: true # crops the image to make it circular
+  
   # address: >
   #   <p>Chestnut Hill, MA</p>
   #   <p>02467</p>
