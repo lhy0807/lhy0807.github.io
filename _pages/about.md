@@ -30,6 +30,6 @@ I completed my Master's degree at [Northeastern University](https://northeastern
 
 I had the opportunity to intern as a researcher at <a href="https://usa.honda-ri.com/">Honda Research Institute</a> (HRI). Throughout my two internships at HRI, my research primarily focused on visuotactile manipulation perception. I had the privilege of being supervised by Dr. Nawid Jamali and Dr. Soshi Iba.
 
-My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception (vison, tactile, point cloud, etc.). Perception plays a crucial role in various robotics domains, and I am currently focused on developing accurate and efficient models for environment and object interaction.
+My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception (vision, tactile, point cloud, etc.). Perception plays a crucial role in various robotics domains, and I am currently focused on developing accurate and efficient models for environment and object interaction.
 
 I hold a Bachelor's degree in Computer Science and Economics (dual major) from [Rensselaer Polytechnic Institute](https://rpi.edu/).
