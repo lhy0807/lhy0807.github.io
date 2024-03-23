@@ -24,12 +24,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm a first-year Ph.D. student in Computer Science at [Brown University](https://brown.edu). I work with [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at [Interactive 3D Vision & Learning Lab](https://ivl.cs.brown.edu/).
+Welcome! I am a first-year Ph.D. student in Computer Science at [Brown University](https://brown.edu). I work with [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at [Interactive 3D Vision & Learning Lab](https://ivl.cs.brown.edu/).
 
-I completed my Master's degree at [Northeastern University](https://northeastern.edu), where I conducted research on topics related to robot perception and navigation with the guidance of [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/).
+My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception (vision and touch) and planning. Perception and planning play a crucial role in various robotics domains, and I am currently focused on developing deep learning models for environment and object interaction.
 
-I had the opportunity to intern at <a href="https://usa.honda-ri.com/">Honda Research Institute</a> (HRI). Throughout my two internships at HRI, my research primarily focused on visuotactile manipulation perception. I had the privilege of being supervised by Dr. Nawid Jamali and Dr. Soshi Iba.
-
-My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception and planning. Perception and planning play a crucial role in various robotics domains, and I am currently focused on developing deep learning models for environment and object interaction.
-
-I hold a Bachelor's degree in Computer Science and Economics (dual major) from [Rensselaer Polytechnic Institute](https://rpi.edu/).
+Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). I also did two research internships at <a href="https://usa.honda-ri.com/">Honda Research Institute</a>, focusing on visuotactile perception under the guidance of [Dr. Nawid Jamali](https://www.nawidjamali.com/) and [Dr. Soshi Iba](https://scholar.google.com/citations?user=cYHiAToAAAAJ&hl=en).
