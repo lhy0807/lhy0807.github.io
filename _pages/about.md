@@ -29,3 +29,5 @@ Welcome! I am a first-year Ph.D. student in Computer Science at [Brown Universit
 My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the field of robot perception (vision and touch) and planning. Perception and planning play a crucial role in various robotics domains, and I am currently focused on developing deep learning models for environment and object interaction.
 
 Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). I also did two research internships at <a href="https://usa.honda-ri.com/">Honda Research Institute</a>, focusing on visuotactile perception under the guidance of [Dr. Nawid Jamali](https://www.nawidjamali.com/) and [Dr. Soshi Iba](https://scholar.google.com/citations?user=cYHiAToAAAAJ&hl=en).
+
+I serve as a reviewer for conferences such as ICRA, IROS, CVPR, ECCV, CHI, and journals including RA-L, Neurocomputing, TCSVT, among others.
