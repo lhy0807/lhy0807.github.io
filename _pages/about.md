@@ -24,7 +24,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a second-year Ph.D. student in Computer Science at [Brown University](https://brown.edu). I work with [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/) at the [Interactive 3D Vision & Learning Lab](https://ivl.cs.brown.edu/).
+Welcome! I am a second-year Ph.D. student in Computer Science at [Brown University](https://brown.edu).
 
 My research interests revolve around the convergence of computer vision, machine learning, and robotics, particularly in the co-design of robot perception (vision and touch) and planning. Perception and planning play crucial roles in various robotics domains, and I am currently focused on developing deep learning models for environmental and object interaction.
 
