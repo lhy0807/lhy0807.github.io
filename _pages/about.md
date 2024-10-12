@@ -25,7 +25,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Welcome! I am a second-year Ph.D. student in Computer Science at [Brown University](https://brown.edu).
-
 My research interests revolve around the convergence of robotics, machine learning, and computer vision, particularly in the co-design of robot perception (vision and touch) and planning. Perception and planning play crucial roles in various robotics domains, and I am currently focused on developing deep learning models for environmental and object interaction.
 
 I've done three great research internships: one at the Innovation Lab, [Amazon Fulfillment Technologies & Robotics](https://www.linkedin.com/company/amazon-fulfillment-technologies-robotics/), and two at the <a href="https://usa.honda-ri.com/">Honda Research Institute</a>.

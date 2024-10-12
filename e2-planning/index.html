@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-    content="E(2)-Equivariant Graph Planning for Navigation.">
+  <meta name="description" content="E(2)-Equivariant Graph Planning for Navigation.">
   <meta name="keywords" content="E(2)-Equivariant, Graph Planning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>E(2)-Equivariant Graph Planning for Navigation</title>
@@ -58,13 +57,15 @@
                 <a href="https://jianghz.me/">Huaizu Jiang</a><sup>1&dagger;</sup>,
               </span>
               <span class="author-block">
-                <a href="https://www.khoury.northeastern.edu/home/lsw/grail.html">Lawson L.S. Wong</a><sup>1&dagger;</sup>,
+                <a href="https://www.khoury.northeastern.edu/home/lsw/grail.html">Lawson L.S.
+                  Wong</a><sup>1&dagger;</sup>,
               </span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>Northeastern University</span>
-              <span class="author-block"><sup>2</sup>Brown University</span>              
+              <span class="author-block"><sup>1</sup>Northeastern University, Boston, MA</span>
+              <span class="author-block"><sup>2</sup>Brown University, Providence, RI</span>
+              <br>
               <span class="author-block"><sup>*</sup>Equal contribution.</span>
               <span class="author-block"><sup>&dagger;</sup>Equal advising.</span>
             </div>
@@ -100,6 +101,84 @@
               </div>
 
             </div>
+            <section class="hero teaser">
+              <div class="container is-max-desktop">
+                <div class="hero-body">
+                  <img src="./static/images/teaser.png" alt="Teaser" style="width: 60%;">
+                  <h2 class="subtitle has-text-centered">
+                    We study E(2)-equivariance in differentiable planning on
+                    geometric graphs and develop message-passing networks (<span class="dnerf">MP-VIN</span>) to perform
+                    value iteration for navigation.
+                  </h2>
+                </div>
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="container is-max-desktop">
+                <!-- Abstract. -->
+                <div class="columns is-centered has-text-centered">
+                  <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                      <p>
+                        Learning for robot navigation presents a critical and challenging task. The scarcity and
+                        costliness of real-world datasets necessitate efficient learning approaches.
+                        In this letter, we exploit Euclidean symmetry in planning for 2D navigation, which originates
+                        from Euclidean transformations between reference frames and enables parameter sharing.
+                        To address the challenges of unstructured environments,
+                        we formulate the navigation problem as planning on a geometric graph and develop an equivariant
+                        message passing network to perform value iteration.
+                        Furthermore, to handle multi-camera input, we propose a learnable equivariant layer to lift
+                        features to a desired space.
+                        We conduct comprehensive evaluations across five diverse tasks encompassing structured and
+                        unstructured environments, along with maps of known and unknown, given point goals or semantic
+                        goals.
+                        Our experiments confirm the substantial benefits on training efficiency, stability, and
+                        generalization.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--/ Abstract. -->
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                  <div class="column is-four-fifths">
+                    <h2 class="title is-3">Methodology</h2>
+                    <img src="./static/images/method.png" alt="Methodology" style="width: 100%;">
+                    <div class="content has-text-justified">
+                      <p class="subtitle has-text-centered"> Messsage Passing Value Iteration Network (MP-VIN)
+                      </p>
+                      <p>
+                        We generalize value iteration to graphs
+                      <ol>
+                        <li> Value iteration involves integral over next states </li>
+                        <li> The integral is over the 2D plane, which can be written as a convolution </li>
+                        <li> The kernel can be proved to satisfy G-steerable kernel constraint </li>
+                        <li> We construct a graph by sampling finite points </li>
+                      </ol>
+                      </p>
+                    </div>
+
+                    <img src="./static/images/lift.png" alt="Methodology" style="width: 60%;">
+                    <div class="content has-text-justified">
+                      <p class="subtitle has-text-centered"> Lifting Layer </p>
+                      <p>
+                        One challenge in learning graph planner from finite camera views:
+                        The robot's finite camera views cannot be continuously rotated with robot, which has infinite
+                        symmetry SO(2).
+                        How to obtain SO(2)-transformable feature maps?
+                        We proposed an equivariant lifting layer to map the images over finite camera view onto features
+                        over SO(2)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </section>
           </div>
         </div>
       </div>
