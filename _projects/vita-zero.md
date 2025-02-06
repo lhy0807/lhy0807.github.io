@@ -1,81 +1,71 @@
 ---
 layout: page
-title: ViTa-Zero
-description: Zero-shot Visuotactile Object 6D Pose Estimation
+title: "ViTa-Zero: Zero-shot Visuotactile Object 6D Pose Estimation"
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: hypertaxel, li2023vihope
+related_publications: vita-zero, hypertaxel, li2023vihope
+scholar:
+  bibliography_template: bib-authors
+  group_by: none
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="author">
+    <em><b>Hongyu Li</b><sup>1,2</sup></em>,&nbsp;
+    <a href="https://jamesakl.com/" rel="external nofollow noopener" target="_blank">James Akl</a><sup>1</sup>,&nbsp;
+    <a href="https://cs.brown.edu/people/ssrinath/" rel="external nofollow noopener" target="_blank">Srinath Sridhar</a><sup>1,2</sup>,&nbsp;
+    <a href="http://tyebrady.com/" rel="external nofollow noopener" target="_blank">Tye Brady</a><sup>1</sup>,&nbsp;and&nbsp;
+    <a href="https://coe.northeastern.edu/people/padir-taskin/" rel="external nofollow noopener" target="_blank">Taskin Padir</a><sup>1,3</sup>
+</div>
+<div class="author">
+    <sup>1</sup> Amazon Fulfillment Technologies & Robotics,&nbsp;
+    <sup>2</sup> Brown University,&nbsp;
+    <sup>3</sup> Northeastern University
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<br>
+<style>
+    .image-right {
+        float: right;
+        margin-left: 15px;
+    }
+    .image-left {
+        float: left;
+        margin-right: 15px;
+    }
+</style>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+{% include figure.html path="assets/img/publication_preview/vita-zero.gif" title="ViTa-Zero tracks the in-hand object pose reliably" class="img-fluid rounded z-depth-1 image-right" width="30%"%}
+
+To enable robots to manipulate objects like humans, accurate 6D pose estimation—determining an object's position and orientation in 3D space—is essential for improving performance. While progress has been made in object pose estimation, real-world challenges remain, particularly with dynamic tasks involving occlusions and contact.
+
+{% include figure.html path="assets/img/vita-zero/results.drawio.png" title="Experiment results" class="img-fluid rounded z-depth-1 image-left" width="30%"%}
+
+Recent work has combined visual and tactile sensing to improve pose tracking, as tactile feedback helps reveal hidden parts of objects. However, collecting visuotactile datasets is difficult, and models often struggle with generalization across different sensors and hardware setups.
+
+
+We propose <b>ViTa-Zero</b>, a zero-shot framework that combines visual and tactile data to estimate and track the 6D pose of novel objects. By using visual models as a backbone, our method addresses situations where visual estimates fail, applying physical constraints—contact, penetration, and kinematics—to refine estimates in real-time using tactile and proprioceptive feedback.
+
+Our experiments on real-world robotic setups show that ViTa-Zero significantly outperforms baseline visual models without requiring additional tactile dataset fine-tuning.
+We leverage FoundationPose and MegaPose as our backbones and compare the performance against them.
+Our framework demonstrates a consistent performance improvement upon its visual backbone, achieving an average increase of 55% in the AUC of ADD-S and 60% in ADD, along with an 80% lower position error (PE) compared to FoundationPose.
+
+
+<h2> Method Overview </h2>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+    {% include figure.html path="assets/img/vita-zero/method.drawio.png" title="Overview of Vita-Zero" class="img-fluid rounded z-depth-0" %}
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+Initially, a visual model estimates the pose denoted as \(\mathit{T}\).
+Then, we assess the feasibility of \(\mathit{T}\) using constraints derived from the tactile signals and proprioception.
+If \(\mathit{T}\) does not meet these constraints, we refine it through our test-time optimization algorithm using tactile and proprioceptive observations, yielding the final pose estimate, denoted as \(\mathit{T}^*\).
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<h2> Supplementary Video </h2>
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<video width="100%" controls loop autoplay="autoplay">
+    <source src="/assets/video/ICRA25_1594_VI_i.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+</video>
