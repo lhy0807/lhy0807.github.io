@@ -4,7 +4,7 @@ title: "ViTa-Zero: Zero-shot Visuotactile Object 6D Pose Estimation"
 description: 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 related_publications: vita-zero, hypertaxel, li2023vihope
 scholar:
   bibliography_template: bib-authors

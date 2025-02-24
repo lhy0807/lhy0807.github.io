@@ -1,6 +1,6 @@
 ---
 layout: page
-title: V-HOP
+title: "V-HOP: Visuo-Haptic 6D Object Pose Tracking"
 description: We fuse visual and haptic sensing to achieve accurate real-time in-hand object tracking.
 img: assets/img/publication_preview/v-hop-teaser.png
 importance: 1
@@ -18,16 +18,7 @@ related_publications: hypertaxel, li2023vihope
     These visual and haptic embeddings are processed by Transformer encoders to estimate 3D translation and rotation.
 </div>
 
+<h2> Supplementary Video </h2>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/Q-NWmvfo-Tc?si=7CPX6XoDZUQKCzhR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h2 style="text-align: center;"> Code coming soon! </h2>
