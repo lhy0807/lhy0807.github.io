@@ -21,6 +21,8 @@ related_publications: v-hop, hypertaxel, li2023vihope
     <sup>2</sup> UT Dallas
 </div>
 
+Read our preprint on <a href="http://arxiv.org/abs/2502.17434" target="_blank">arXiv</a>
+
 <style>
     .image-right {
         float: right;
