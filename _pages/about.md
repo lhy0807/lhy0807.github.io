@@ -24,7 +24,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a third-year Ph.D. candidate in Computer Science at [Brown University](https://en.wikipedia.org/wiki/Brown_University), working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/), and a research intern at [Robotics and AI Institute](https://rai-inst.com/), working with [Jiahui Fu](https://scholar.google.com/citations?user=-FqjG8kAAAAJ&hl=en&oi=ao) and [Linfeng Sun](https://lingfeng.moe/).
+Welcome! I am a third-year Ph.D. candidate in Computer Science at [Brown University](https://en.wikipedia.org/wiki/Brown_University), working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/), and a research intern at [Robotics and AI Institute](https://rai-inst.com/), working with [Jiahui Fu](https://scholar.google.com/citations?user=-FqjG8kAAAAJ&hl=en&oi=ao) and [Lingfeng Sun](https://lingfeng.moe/).
 I also collaborate closely with [Prof. Srinath Sridhar](https://cs.brown.edu/people/ssrinath/), [Prof. Stefanie Tellex](https://cs.brown.edu/people/stellex/), and [Prof. Yu Xiang](https://yuxng.github.io/) (UT Dallas).
 My research interests revolve around the convergence of robotics, machine learning, and computer vision, particularly in the co-design of robot perception (including vision and touch) and planning. 
 Perception and planning play crucial roles in various robotics domains. I am currently focused on developing deep learning models for environmental and object interaction.
