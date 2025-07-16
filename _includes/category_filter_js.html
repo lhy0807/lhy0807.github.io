@@ -1,0 +1,108 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var categoryButtons = document.querySelectorAll('.category-btn');
+  // Only target publication items that have IDs (from bibliography), exclude Experience section
+  var publicationItems = document.querySelectorAll('.publications-list .row, .bibliography .row[id]');
+
+  // Category and selected data from Jekyll
+  var bibliographyCategories = {{ site.bibliography_categories | jsonify }};
+  var selectedPapers = {{ site.selected_papers | jsonify }};
+
+  // Add category data attributes to publication items
+  publicationItems.forEach(function(item) {
+    var idElement = item.querySelector('[id]');
+    var entryKey = idElement ? idElement.id : null;
+    if (entryKey) {
+      // Get categories from bibliography entry
+      var categories = bibliographyCategories[entryKey];
+      if (categories && categories.length > 0) {
+        // Join multiple categories with space for data attribute
+        item.setAttribute('data-categories', categories.join(' '));
+      } else {
+        // Papers without category get a special marker
+        item.setAttribute('data-categories', 'no-category');
+      }
+      
+      // Check if selected
+      var isSelected = selectedPapers[entryKey] || false;
+      if (isSelected) {
+        item.setAttribute('data-selected', 'true');
+      }
+    }
+  });
+
+  // Category button click handlers
+  categoryButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      var selectedCategory = this.getAttribute('data-category');
+      
+      // Update active button
+      categoryButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+      this.classList.add('active');
+      
+      // Filter publications
+      filterPublications(selectedCategory);
+    });
+  });
+
+  function filterPublications(category) {
+    publicationItems.forEach(function(item) {
+      if (category === 'selected') {
+        // Show only selected publications
+        if (item.getAttribute('data-selected') === 'true') {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      } else if (category === 'all') {
+        // Show all publications (including those without categories)
+        item.classList.remove('hidden');
+      } else {
+        // Show publications with matching category (check if any category matches)
+        var itemCategories = item.getAttribute('data-categories');
+        if (itemCategories && itemCategories !== 'no-category') {
+          var categoryArray = itemCategories.split(' ');
+          if (categoryArray.indexOf(category) !== -1) {
+            item.classList.remove('hidden');
+          } else {
+            item.classList.add('hidden');
+          }
+        } else {
+          item.classList.add('hidden');
+        }
+      }
+    });
+
+    // Robustly hide/show year headers based on visibility of papers
+    var yearHeaders = document.querySelectorAll('h2.bibliography');
+    yearHeaders.forEach(function(header) {
+      // Find the next <ol class="bibliography"> sibling, skipping non-element nodes
+      var nextOl = header.nextSibling;
+      while (nextOl && (nextOl.nodeType !== 1 || nextOl.tagName !== 'OL' || !nextOl.classList.contains('bibliography'))) {
+        nextOl = nextOl.nextSibling;
+      }
+      if (nextOl && nextOl.tagName === 'OL' && nextOl.classList.contains('bibliography')) {
+        var papersInYear = nextOl.querySelectorAll('.row');
+        var visiblePapers = 0;
+        papersInYear.forEach(function(paper) {
+          if (!paper.classList.contains('hidden')) {
+            visiblePapers++;
+          }
+        });
+        if (visiblePapers === 0) {
+          header.classList.add('hidden');
+          nextOl.classList.add('hidden');
+        } else {
+          header.classList.remove('hidden');
+          nextOl.classList.remove('hidden');
+        }
+      }
+    });
+  }
+
+  // Trigger filtering for 'selected' on page load
+  filterPublications('selected');
+});
+</script> 

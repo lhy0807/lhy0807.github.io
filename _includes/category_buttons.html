@@ -1,0 +1,9 @@
+<!-- Category Filter Buttons -->
+<div class="category-filters">
+  <button class="category-btn active" data-category="selected">Selected</button>
+  {% for category in site.unique_categories %}
+    {% assign category_display = category | replace: '-', ' ' | capitalize %}
+    <button class="category-btn" data-category="{{ category }}">{{ category_display }}</button>
+  {% endfor %}
+  <button class="category-btn" data-category="all">All</button>
+</div> 

@@ -1,4 +1,11 @@
 
           <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
+            {% include category_buttons.html %}
+
+            <!-- Publications List -->
+            <div class="publications-list">
+              {% bibliography -f {{ site.scholar.bibliography }} %}
+            </div>
           </div>
+
+          {% include category_filter_js.html %}

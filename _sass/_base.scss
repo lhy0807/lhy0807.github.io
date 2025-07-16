@@ -1064,3 +1064,46 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+/* Category Filter Styles */
+.category-filters {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.category-btn {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  padding: 8px 16px;
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: var(--global-theme-color);
+    color: white;
+    border-color: var(--global-theme-color);
+  }
+
+  &.active {
+    background-color: var(--global-theme-color);
+    color: white;
+    border-color: var(--global-theme-color);
+  }
+}
+
+.publication-item {
+  transition: opacity 0.3s ease;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+/* General hidden class for completely hiding elements */
+.hidden {
+  display: none !important;
+}
