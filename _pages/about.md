@@ -32,6 +32,6 @@ Perception and planning play crucial roles in various robotics domains. I am cur
 I've completed three research internships: one at [Amazon Robotics](https://www.linkedin.com/company/amazon-fulfillment-technologies-robotics/) (Innovation Lab) and two at [Honda Research Institute](https://usa.honda-ri.com/).
 Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). 
 
-I serve as a reviewer for conferences such as ICRA, IROS, CVPR, ECCV, ICCV, WACV, Humanoids, AAAI, and CHI, as well as journals including RA-L and Neurocomputing.
+I serve as a reviewer for conferences such as ICRA, IROS, CVPR, ECCV, ICCV, WACV, Humanoids, AAAI, and CHI, as well as journals including T-RO, RA-L and Neurocomputing.
 
 I'm happy to chat about research or life -- just send me an email.
