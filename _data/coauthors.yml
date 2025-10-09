@@ -81,6 +81,8 @@
 "Fu":
   - firstname: ["Wanjia"]
     url: https://wanjia-fu.com/
+  - firstname: ["Jiahui"]
+    url: https://scholar.google.com/citations?user=-FqjG8kAAAAJ&hl=en&oi=ao
 
 "He":
   - firstname: ["Ivy X."]
@@ -89,3 +91,19 @@
 "Tellex":
   - firstname: ["Stefanie"]
     url: https://cs.brown.edu/people/stellex/
+
+"Sun":
+  - firstname: ["Lingfeng"]
+    url: https://lingfeng.moe/
+
+"Hu":
+  - firstname: ["Yafei"]
+    url: https://jeffreyyh.github.io/
+
+"Ta":
+  - firstname: ["Duy"]
+    url: https://www.linkedin.com/in/duynguyen-ta/
+
+"Barry":
+  - firstname: ["Jennifer"]
+    url: https://www.linkedin.com/in/jennifer-barry-742a0799/
