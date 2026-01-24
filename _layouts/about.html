@@ -71,17 +71,36 @@ layout: default
           <div class="table publications"><ol class="bibliography">
             <li><div class="row">
               <div class="col-sm-3">
+                <img src="{{ '/assets/img/nvidia.jpg' | relative_url }}" alt="Experience" class="img-fluid">
+              </div>
+              <div class="col-sm-8">
+                <p class="text">
+                  <b>NVIDIA</b>
+                  <br>
+                  Incoming
+                  <br>
+                  Research Intern
+                  <br>
+                  Hosts: <a href="https://wenbowen123.github.io/">Bowen Wen</a>,
+                  <a href="https://rolandzhu.github.io/">Xinghao Zhu</a>,
+                  and <a href="https://www.linkedin.com/in/yanchang1/">Yan Chang</a>
+                  <br>
+                </p>
+              </div>
+            </div></li>
+            <li><div class="row">
+              <div class="col-sm-3">
                 <img src="{{ '/assets/img/rai.jpeg' | relative_url }}" alt="Experience" class="img-fluid">
               </div>
               <div class="col-sm-8">
                 <p class="text">
-                  <b>Robotics and AI Institute (fka Boston Dynamics AI Institute)</b>
+                  <b>Robotics and AI Institute (formerly Boston Dynamics AI Institute)</b>
                   <br>
-                  06/2025 - Present
+                  06/2025 - 01/2026
                   <br>
                   Research Intern
                   <br>
-                  Mentors: <a href="https://scholar.google.com/citations?user=-FqjG8kAAAAJ&hl=en">Jiahui Fu</a>
+                  Hosts: <a href="https://scholar.google.com/citations?user=-FqjG8kAAAAJ&hl=en">Jiahui Fu</a>
                   and <a href="https://lingfeng.moe/">Lingfeng Sun</a>
                   <br>
                 </p>
@@ -125,8 +144,10 @@ layout: default
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+            By default, only selected papers are shown.
             Symbol * or † represents equal contribution or advising.
+            <br>
             {%- include selected_papers.html %}
           {%- endif %}
 
