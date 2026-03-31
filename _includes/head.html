@@ -36,3 +36,30 @@
     <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url | bust_file_cache }}"></script>
     {% endif %}
+
+    <!-- add JSON-LD -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hongyu Li",
+    "alternateName": "李鸿宇",
+    "url": "https://lhy.xyz",
+    "jobTitle": "PhD Candidate in Computer Science",
+    "affiliation": {
+        "@type": "Organization",
+        "name": "Brown University"
+    },
+    "sameAs": [
+        "https://scholar.google.com/citations?user=aM2PHREAAAAJ",
+        "https://github.com/lhy0807",
+        "https://linkedin.com/in/lhy0807",
+        "https://twitter.com/Hongyu_Lii"
+    ],
+    "knowsAbout": ["Robotics", "Tactile Sensing", "Computer Vision", "Robot Manipulation"],
+    "alumniOf": {
+        "@type": "Organization",
+        "name": "Northeastern University"
+    }
+    }
+    </script>

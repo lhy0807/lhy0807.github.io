@@ -29,6 +29,8 @@
 "Li":
   - firstname: ["Zhengang"]
     url: https://scholar.google.com/citations?user=hH1Oun0AAAAJ&hl=en
+  - firstname: ["Zekun"]
+    url: https://kunkun0w0.github.io/
 
 "Dikhale":
   - firstname: ["Snehal"]
@@ -119,3 +121,39 @@
 "Nan":
   - firstname: ["Junyu"]
     url: https://scholar.google.com/citations?user=Cvn7Y5YAAAAJ&hl=en
+
+"Cong":
+  - firstname: ["Xiaoyan"]
+    url: https://oliver-cong02.github.io/
+
+"Dou":
+  - firstname: ["Zhiyang"]
+    url: https://frank-zy-dou.github.io/
+
+"Taheri":
+  - firstname: ["Omid"]
+    url: https://otaheri.github.io/
+
+"Guo":
+  - firstname: ["Chuan"]
+    url: https://ericguo5513.github.io/
+
+"Mittal":
+  - firstname: ["Abhay"]
+    url: https://scholar.google.com/citations?hl=en&user=BwE_L4MAAAAJ&view_op=list_works&sortby=pubdate
+
+"An":
+  - firstname: ["Sizhe"]
+    url: https://sizhean.github.io/
+
+"Komura":
+  - firstname: ["Taku"]
+    url: https://i.cs.hku.hk/~taku/
+
+"Matusik":
+  - firstname: ["Wojciech"]
+    url: https://cdfg.mit.edu/wojciech/
+
+"Black":
+  - firstname: ["Michael J."]
+    url: https://is.mpg.de/ps/person/black
