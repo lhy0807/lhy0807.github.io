@@ -1,0 +1,25 @@
+# Hongyu Li — Robotics Researcher
+> Third-year PhD candidate in Computer Science at Brown University, advised by Prof. George Konidaris. Research focuses on robot manipulation, tactile sensing, and visuotactile perception.
+
+## Key Pages
+- [About](https://lhy.xyz/): Academic bio, research interests, and contact information
+- [Publications](https://lhy.xyz/publications/): Full list of 16+ publications at ICRA, IROS, RSS, RA-L
+- [CV](https://lhy.xyz/cv/): Curriculum vitae with education and experience
+
+## Research Areas
+- Robot manipulation and grasping
+- Tactile and visuotactile sensing
+- Pose estimation and object perception
+- Deep learning for robotics
+- World models and reinforcement learning
+
+## Key Publications
+- [VITA-Zero](https://lhy.xyz/projects/VITA-Zero/): Visuotactile pose estimation (ICRA 2026)
+- [V-HOP](https://lhy.xyz/projects/V-HOP/): Vision-based hand-object pose estimation
+- [StereoVoxelNet](https://lhy.xyz/projects/StereoVoxelNet/): Real-time obstacle detection
+
+## Contact
+- Email: hongyu_li@brown.edu
+- Google Scholar: [Profile](linked)
+- GitHub: @lhy0807
+- LinkedIn: /in/lhy0807/
