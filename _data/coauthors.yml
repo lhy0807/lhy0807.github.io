@@ -31,6 +31,8 @@
     url: https://scholar.google.com/citations?user=hH1Oun0AAAAJ&hl=en
   - firstname: ["Zekun"]
     url: https://kunkun0w0.github.io/
+  - firstname: ["Yunzhu"]
+    url: https://yunzhuli.github.io/
 
 "Dikhale":
   - firstname: ["Snehal"]
@@ -157,3 +159,7 @@
 "Black":
   - firstname: ["Michael J."]
     url: https://is.mpg.de/ps/person/black
+
+"Smith":
+  - firstname: ["Kevin A."]
+    url: https://www.mit.edu/~k2smith/
