@@ -1,6 +1,8 @@
 "Jiang":
   - firstname: ["Huaizu"]
     url: https://jianghz.me/
+  - firstname: ["Hanxiao"]
+    url: https://jianghanxiao.github.io/
 
 "Wang":
   - firstname: ["Yanzhi"]
@@ -87,6 +89,8 @@
     url: https://wanjia-fu.com/
   - firstname: ["Jiahui"]
     url: https://jiahui-fu.github.io/
+  - firstname: ["Rao"]
+    url: https://freddierao.github.io/
 
 "He":
   - firstname: ["Ivy X."]
@@ -163,3 +167,15 @@
 "Smith":
   - firstname: ["Kevin A."]
     url: https://www.mit.edu/~k2smith/
+
+"Huang":
+  - firstname: ["Binghao"]
+    url: https://binghao-huang.github.io/
+
+"Liang":
+  - firstname: ["Yiqing"]
+    url: https://lynl7130.github.io/
+
+"Lu":
+  - firstname: ["Tao"]
+    url: https://inspirelt.github.io/
