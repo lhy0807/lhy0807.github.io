@@ -32,5 +32,5 @@ My current focus is on developing deep learning models for environmental and obj
 I interned at [Robotics and AI Institute](https://rai-inst.com/) (formerly Boston Dynamics AI Institute), [Amazon Robotics](https://www.linkedin.com/company/amazon-fulfillment-technologies-robotics/) (Innovation Lab), and [Honda Research Institute](https://usa.honda-ri.com/).
 Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). 
 
-I serve as a reviewer for conferences such as ICRA, IROS, RSS, CVPR, ECCV, ICCV, WACV, Humanoids, AAAI, HRI, and CHI, as well as journals including T-RO, T-RL, and RA-L.
+I serve as a reviewer for conferences such as ICRA, IROS, RSS, CoRL, CVPR, ECCV, ICCV, NeurIPS, WACV, Humanoids, AAAI, HRI, and CHI, as well as journals including T-RO, T-RL, and RA-L.
 I'm happy to chat about research or life — just send me an email.
