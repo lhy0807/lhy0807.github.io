@@ -1,25 +1,25 @@
 # Hongyu Li — Robotics Researcher
-> Third-year PhD candidate in Computer Science at Brown University, advised by Prof. George Konidaris. Research focuses on robot manipulation, tactile sensing, and visuotactile perception.
+> Final-year PhD candidate in Computer Science at Brown University, advised by Prof. George Konidaris and Prof. Yunzhu Li (Columbia University). Currently a research intern at NVIDIA. Author of 18+ publications at ICRA, IROS, RSS, RA-L, and ECCV. Research focuses on robot manipulation, tactile and visuotactile sensing, 6D object pose estimation, and world models.
 
 ## Key Pages
 - [About](https://lhy.xyz/): Academic bio, research interests, and contact information
-- [Publications](https://lhy.xyz/publications/): Full list of 16+ publications at ICRA, IROS, RSS, RA-L
+- [Publications](https://lhy.xyz/publications/): Full list of 18+ publications at ICRA, IROS, RSS, RA-L, and ECCV
 - [CV](https://lhy.xyz/cv/): Curriculum vitae with education and experience
 
 ## Research Areas
 - Robot manipulation and grasping
 - Tactile and visuotactile sensing
-- Pose estimation and object perception
-- Deep learning for robotics
-- World models and reinforcement learning
+- 6D object pose estimation and tracking
+- Computer vision for robotics
+- Deep learning, world models, and reinforcement learning
 
 ## Key Publications
-- [VITA-Zero](https://lhy.xyz/projects/VITA-Zero/): Visuotactile pose estimation (ICRA 2026)
-- [V-HOP](https://lhy.xyz/projects/V-HOP/): Vision-based hand-object pose estimation
-- [StereoVoxelNet](https://lhy.xyz/projects/StereoVoxelNet/): Real-time obstacle detection
+- [V-HOP](https://lhy.xyz/projects/v-hop/): Visuo-haptic 6D object pose tracking (RSS 2025)
+- [ViTa-Zero](https://lhy.xyz/projects/vita-zero/): Zero-shot visuotactile 6D object pose estimation (ICRA 2025)
+- [StereoVoxelNet](https://lhy.xyz/projects/stereovoxelnet/): Real-time stereo obstacle detection
 
 ## Contact
-- Email: hongyu_li@brown.edu
-- Google Scholar: [Profile](linked)
-- GitHub: @lhy0807
-- LinkedIn: /in/lhy0807/
+- Email: hongyu@brown.edu
+- Google Scholar: https://scholar.google.com/citations?user=aM2PHREAAAAJ
+- GitHub: https://github.com/lhy0807
+- LinkedIn: https://www.linkedin.com/in/lhy0807/
