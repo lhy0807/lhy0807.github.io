@@ -1,6 +1,11 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+    <!-- Preconnect to third-party origins on the critical render path (LCP) -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
@@ -11,7 +16,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="" id="highlight_theme_light" />
@@ -45,21 +50,34 @@
     "name": "Hongyu Li",
     "alternateName": "李鸿宇",
     "url": "https://lhy.xyz",
+    "image": "https://lhy.xyz/assets/img/headshot.jpg",
+    "email": "mailto:hongyu@brown.edu",
     "jobTitle": "PhD Candidate in Computer Science",
-    "affiliation": {
+    "description": "Final-year Computer Science PhD candidate at Brown University, advised by George Konidaris and Yunzhu Li, researching robot manipulation, tactile and visuotactile sensing, 6D object pose estimation, and world models. Currently a research intern at NVIDIA.",
+    "worksFor": {
         "@type": "Organization",
-        "name": "Brown University"
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com"
+    },
+    "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Brown University",
+        "url": "https://www.brown.edu"
+    },
+    "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Northeastern University",
+        "url": "https://www.northeastern.edu"
     },
     "sameAs": [
+        "https://orcid.org/0000-0002-4588-9929",
         "https://scholar.google.com/citations?user=aM2PHREAAAAJ",
+        "https://www.semanticscholar.org/author/Hongyu-Li/2155109477",
+        "https://dblp.org/pid/72/2639-3.html",
         "https://github.com/lhy0807",
-        "https://linkedin.com/in/lhy0807",
+        "https://www.linkedin.com/in/lhy0807",
         "https://twitter.com/Hongyu_Lii"
     ],
-    "knowsAbout": ["Robotics", "Tactile Sensing", "Computer Vision", "Robot Manipulation"],
-    "alumniOf": {
-        "@type": "Organization",
-        "name": "Northeastern University"
-    }
+    "knowsAbout": ["Robotics", "Robot Manipulation", "Tactile Sensing", "Visuotactile Perception", "6D Object Pose Estimation", "Computer Vision", "World Models", "Deep Learning"]
     }
     </script>

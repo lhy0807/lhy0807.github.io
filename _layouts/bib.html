@@ -1,6 +1,36 @@
 ---
 ---
 <!-- _layouts/bib.html -->
+      {%- comment -%} ScholarlyArticle JSON-LD — structured data for AI / search discoverability {%- endcomment -%}
+      {%- assign venue_name = entry.journal | default: entry.booktitle -%}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "name": {{ entry.title | strip_html | jsonify }},
+        "author": [
+          {%- for author in entry.author_array -%}
+          {%- assign author_last_clean = author.last | remove: "*" | remove: "†" | remove: "^" | remove: "¶" | remove: "&" | strip -%}
+          {%- assign author_full = author.first | append: " " | append: author_last_clean | strip -%}
+          {"@type": "Person", "name": {{ author_full | jsonify }}{%- if author.first contains "Hongyu" and author_last_clean == "Li" -%}, "url": "https://lhy.xyz"{%- endif -%}}{%- unless forloop.last -%},{%- endunless -%}
+          {%- endfor -%}
+        ],
+        {%- if entry.year %}
+        "datePublished": "{{ entry.year }}",
+        {%- endif %}
+        {%- if venue_name %}
+        "isPartOf": { "@type": "PublicationVolume", "name": {{ venue_name | strip_html | jsonify }} },
+        {%- endif %}
+        {%- if entry.arxiv %}
+        "sameAs": "http://arxiv.org/abs/{{ entry.arxiv }}",
+        {%- endif %}
+        {%- if entry.abstract %}
+        "abstract": {{ entry.abstract | strip_html | strip_newlines | jsonify }},
+        {%- endif %}
+        "url": "https://lhy.xyz/publications/#{{ entry.key }}",
+        "inLanguage": "en"
+      }
+      </script>
       <div class="row">
         <div class="col-sm-3">
           {%- if entry.abbr -%}
