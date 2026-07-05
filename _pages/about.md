@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Welcome! I am a final year Ph.D. candidate in Computer Science working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) at [Brown University](https://en.wikipedia.org/wiki/Brown_University) and [Prof. Yunzhu Li](https://yunzhuli.github.io/) at [Columbia University](https://en.wikipedia.org/wiki/Columbia_University).
-I'm also interning at [NVIDIA](https://www.nvidia.com/en-us/industries/robotics/), working on foundation models for manipulation.
+I'm also interning at [NVIDIA](https://www.nvidia.com/en-us/industries/robotics/), working on world models for manipulation.
 My research interests revolve around the convergence of robotics, machine learning, and computer vision, particularly in the co-design of multi-modal perception and planning. 
 My current focus is on developing deep learning models for environmental and object interaction, specifically leveraging tactile sensing and world models (video and particle-based).
 
