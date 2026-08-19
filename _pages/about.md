@@ -25,11 +25,10 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Welcome! I am a final year Ph.D. candidate in Computer Science working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) at [Brown University](https://en.wikipedia.org/wiki/Brown_University) and [Prof. Yunzhu Li](https://yunzhuli.github.io/) at [Columbia University](https://en.wikipedia.org/wiki/Columbia_University).
-I'm also interning at [NVIDIA](https://www.nvidia.com/en-us/industries/robotics/), working on world models for manipulation.
 My research interests revolve around the convergence of robotics, machine learning, and computer vision, particularly in the co-design of multi-modal perception and planning. 
 My current focus is on developing deep learning models for environmental and object interaction, specifically leveraging tactile sensing and world models (video and particle-based).
 
-I interned at [Robotics and AI Institute](https://rai-inst.com/) (formerly Boston Dynamics AI Institute), [Amazon Robotics](https://www.linkedin.com/company/amazon-fulfillment-technologies-robotics/) (Innovation Lab), and [Honda Research Institute](https://usa.honda-ri.com/).
+I interned at [NVIDIA](https://www.nvidia.com/en-us/industries/robotics/) (Isaac team), [Robotics and AI Institute](https://rai-inst.com/) (formerly Boston Dynamics AI Institute), [Amazon Robotics](https://www.linkedin.com/company/amazon-fulfillment-technologies-robotics/) (Innovation Lab), and [Honda Research Institute](https://usa.honda-ri.com/).
 Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). 
 
 I serve as a reviewer for conferences such as ICRA, IROS, RSS, CoRL, CVPR, ECCV, ICCV, NeurIPS, WACV, Humanoids, AAAI, HRI, and CHI, as well as journals including T-RO, T-RL, and RA-L.
