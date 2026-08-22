@@ -7,6 +7,7 @@ cv: CV.pdf
 google_scholar: https://scholar.google.com/citations?user=aM2PHREAAAAJ&hl=en
 linkedin: https://www.linkedin.com/in/lhy0807/
 twitter: https://twitter.com/Hongyu_Lii
+alphaxiv: https://www.alphaxiv.org/@hongyu-li
 
 profile:
   align: right
