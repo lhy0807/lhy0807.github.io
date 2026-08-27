@@ -25,7 +25,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a final year Ph.D. candidate in Computer Science working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) at [Brown University](https://en.wikipedia.org/wiki/Brown_University) and [Prof. Yunzhu Li](https://yunzhuli.github.io/) at [Columbia University](https://en.wikipedia.org/wiki/Columbia_University).
+Welcome! I am a robotics researcher at NVIDIA, a final year Ph.D. candidate in Computer Science working with [Prof. George Konidaris](https://cs.brown.edu/people/gdk/) at [Brown University](https://en.wikipedia.org/wiki/Brown_University) and [Prof. Yunzhu Li](https://yunzhuli.github.io/) at [Columbia University](https://en.wikipedia.org/wiki/Columbia_University).
 My research interests revolve around the convergence of robotics, machine learning, and computer vision, particularly in the co-design of multi-modal perception and planning. 
 My current focus is on developing deep learning models for environmental and object interaction, specifically leveraging tactile sensing and world models (video and particle-based).
 
@@ -33,4 +33,5 @@ I interned at [NVIDIA](https://www.nvidia.com/en-us/industries/robotics/) (Isaac
 Before joining Brown University, I worked with [Prof. Huaizu Jiang](https://jianghz.me/) and [Prof. Taskin Padir](https://robot.neu.edu/) at [Northeastern University](https://northeastern.edu). 
 
 I serve as a reviewer for conferences such as ICRA, IROS, RSS, CoRL, CVPR, ECCV, ICCV, NeurIPS, WACV, Humanoids, AAAI, HRI, and CHI, as well as journals including T-RO, T-RL, and RA-L.
-I'm happy to chat about research or life — just send me an email.
+
+<span style="color: red;">My team is always looking for self-motivated research interns. Please drop me a line if you are interested!</span>
