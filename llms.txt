@@ -19,7 +19,7 @@
 - [StereoVoxelNet](https://lhy.xyz/projects/stereovoxelnet/): Real-time stereo obstacle detection
 
 ## Contact
-- Email: hongyu@brown.edu
+- Email: honli@nvidia.com
 - Google Scholar: https://scholar.google.com/citations?user=aM2PHREAAAAJ
 - GitHub: https://github.com/lhy0807
 - LinkedIn: https://www.linkedin.com/in/lhy0807/
